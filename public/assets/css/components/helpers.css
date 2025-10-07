@@ -73,6 +73,10 @@
     border-bottom-right-radius: 45px;
     border-bottom-left-radius: 45px;
   }
+  .sticky {
+    position: sticky;
+    top: 100px;
+  }
 }
 .bg-squares {
   background: var(--color-light-1) url(/assets/img/template/bgr-squeres.svg) 0 0/64px;

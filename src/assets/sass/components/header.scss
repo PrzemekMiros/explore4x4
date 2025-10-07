@@ -49,7 +49,12 @@
 
 .logo img {
   max-width: 136px; 
-  height: auto
+  height: auto;
+  transition: .3s ease-in-out;
+}
+
+.site-header.scrolled .logo img {
+  max-width: 96px; 
 }
 
 .site-logo.light {

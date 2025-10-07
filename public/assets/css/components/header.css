@@ -50,6 +50,11 @@
 .logo img {
   max-width: 136px;
   height: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.site-header.scrolled .logo img {
+  max-width: 96px;
 }
 
 .site-logo.light {
