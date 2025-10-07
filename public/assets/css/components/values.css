@@ -1,0 +1,9 @@
+.value-card {
+  display: flex;
+}
+
+.value-card-icon {
+  margin-right: 3em;
+  margin-top: 0.45em;
+  opacity: 0.5;
+}

@@ -1,0 +1,137 @@
+<section class="pt-small pb-small pb-md-large bg-dark-3">
+     <div class="">
+          <div class="col-md-6 mx-auto text-center mb-4 mb-md-5">
+               <p class="handwrite-lg color-light-1 my-0">Inne strony które wykonałem</p>
+          </div>
+
+          <div class="portfolio-slider">
+               <div class="slider">
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-1.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-2.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-3.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-4.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-5.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-6.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-1.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-2.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-3.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-4.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-5.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-6.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+
+               </div>
+          </div>
+
+          <div class="portfolio-slider reverse">
+               <div class="slider">
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-7.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-8.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-9.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-10.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-11.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-12.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-7.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-8.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-9.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-10.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-11.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+                    <div class="slider-item">
+                         <img src="/assets/img/more/par-12.webp" loading="lazy" decoding="async" width="365" height="221" alt="">
+                    </div>
+
+               </div>
+          </div>
+
+     </div>
+</section>
+
+<style>
+     .portfolio-slider {
+          width: 100%;
+          padding: 10px 0;
+          position: relative;
+          overflow: hidden;
+     }
+     .slider {
+  gap: 1em;
+  width: 158%;
+  animation: 44s linear infinite scroll;
+  display: flex;
+     }
+     .slider img {
+          border-radius: 10px;
+          width: 160px;
+     }
+     @keyframes scroll {
+          0% {
+               transform: translate(0%);
+          }
+          to {
+               transform: translate(-100%);
+          }
+     }
+     .portfolio-slider.reverse .slider {
+          animation: 76s linear infinite scroll-reverse;
+     }
+     @keyframes scroll-reverse {
+          0% {
+               transform: translate(-100%);
+          }
+          to {
+               transform: translate(0);
+          }
+     }
+     @media(min-width:767px) {
+          .slider img {
+          width: 360px;
+     }
+     }
+</style>

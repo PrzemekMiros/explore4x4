@@ -1,0 +1,16 @@
+.contact-list {
+    padding-left: 0;
+    margin-left: 0;
+}
+.contact-list li {
+    list-style: none
+}
+.contact-list li a {
+    display: flex;
+    align-items: center;
+}
+.contact-list svg {
+    margin-right: 1em;
+    width: 44px;
+    height: 44px
+}

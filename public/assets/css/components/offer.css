@@ -1,0 +1,64 @@
+.offer-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.offer-card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #15359e;
+  background: linear-gradient(360deg, rgba(21, 53, 158, 0) 0%, rgb(3, 9, 36) 100%);
+  opacity: 0.3;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.offer-card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em 8em 2em 3em;
+  z-index: 9;
+}
+
+.offer-card-image img {
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  transform: scale(1.06);
+  transition: 0.3s ease-in-out;
+}
+
+.offer-card-arrow {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.offer-card-title {
+  color: #fff;
+}
+
+@media (min-width: 767px) {
+  .offer-card-arrow {
+    top: 3em;
+    right: 2em;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+    z-index: 9;
+  }
+  .offer-card:hover .offer-card-arrow {
+    transform: scale(1);
+  }
+  .offer-card:hover .offer-card-image img {
+    transform: scale(1);
+  }
+  .offer-card:hover::before {
+    opacity: 0.5;
+  }
+}
