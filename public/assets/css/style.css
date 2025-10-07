@@ -5079,7 +5079,7 @@ html.lenis, html.lenis body {
 
 /* Placeholder images - zamień na swoje zdjęcia */
 .layer-back {
-  background-image: url("/assets/img/hero/par-layer-1.png");
+  background-image: url("/assets/img/hero/par-layer-1.webp");
   z-index: 1;
 }
 
