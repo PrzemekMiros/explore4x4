@@ -177,8 +177,6 @@ gsap.ticker.add((time) => {
       });
 
   // Parallax layer
-
-   // Efekt parallax dla każdej warstwy z różną prędkością
         gsap.to(".layer-back", {
             y: "50%",
             ease: "none",
@@ -212,10 +210,9 @@ gsap.ticker.add((time) => {
             }
         });
 
-        // Animacja tekstu hero
-        gsap.to(".hero-text", {
+        gsap.to(".hero-text-wrap", {
             opacity: 0,
-            y: -100,
+            yPercent: 100,
             ease: "none",
             scrollTrigger: {
                 trigger: ".parallax-container",
