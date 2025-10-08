@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 1em 8em 2em 3em;
+    padding: 0em 1em 1em 1em;
     z-index: 9;
 }
 
@@ -46,6 +46,9 @@
 }
 
 @media(min-width:767px) {
+.offer-card-content {
+    padding: 1em 8em 2em 3em;
+}
 .offer-card-arrow {
     top: 3em;
     right: 2em;

@@ -9,3 +9,17 @@
 .footer-bottom {
     border-top: 1px solid #9993;
 }
+
+.policy-list {
+    padding-left: 0;
+}
+
+.policy-list li {
+    margin-bottom: 1em;
+    margin-right: 2em;
+    display: inline-block;
+    list-style: none;
+    font-size: 12px;
+    color: #ddd;
+    opacity: .75;
+}

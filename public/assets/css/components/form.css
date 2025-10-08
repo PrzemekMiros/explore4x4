@@ -6,6 +6,7 @@
 
 .contact-list li {
   list-style: none;
+  margin-bottom: 1em;
 }
 
 .contact-list li a {
@@ -17,6 +18,8 @@
   margin-right: 1em;
   width: 44px;
   height: 44px;
+  background: #fff;
+  border-radius: 50%;
 }
 
 .floating-label {

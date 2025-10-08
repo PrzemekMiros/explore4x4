@@ -3,7 +3,8 @@
     margin-left: 0;
 }
 .contact-list li {
-    list-style: none
+    list-style: none;
+    margin-bottom: 1em;
 }
 .contact-list li a {
     display: flex;
@@ -12,7 +13,9 @@
 .contact-list svg {
     margin-right: 1em;
     width: 44px;
-    height: 44px
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
 }
 
 

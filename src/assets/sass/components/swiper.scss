@@ -368,7 +368,7 @@
   .swiper-horizontal > .swiper-scrollbar,
   .swiper-scrollbar.swiper-scrollbar-horizontal {
     height: 4px;
-    background: var(--color-light-2);
+    background: var(--color-light-1);
   }
   .swiper-scrollbar.swiper-scrollbar-vertical,
   .swiper-vertical > .swiper-scrollbar {
@@ -626,7 +626,7 @@
     height: 4px;
     left: 140px;
     width: calc(100% - 140px);
-    background: var(--color-light-2);
+    background: var(--color-light-1);
     transform: translateY(-2em);
   }
 
