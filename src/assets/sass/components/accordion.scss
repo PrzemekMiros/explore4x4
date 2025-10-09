@@ -21,7 +21,7 @@
   border-radius:2px;
   position:absolute;
   top:48%;
-  right:0
+  right:2em
 }
 .icon:before {
   content:"";
@@ -55,4 +55,14 @@
     font-size:1vw;
     left:-5em
   }
+  .icon {
+  width:20px;
+  height:3px;
+  background:var(--color-accent-1);
+  opacity:.7;
+  border-radius:2px;
+  position:absolute;
+  top:48%;
+  right:3em
+}
 }

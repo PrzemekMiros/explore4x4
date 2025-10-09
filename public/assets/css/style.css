@@ -5350,7 +5350,7 @@ form .page .invalid-input {
   border-radius: 2px;
   position: absolute;
   top: 48%;
-  right: 0;
+  right: 2em;
 }
 
 .icon:before {
@@ -5388,6 +5388,16 @@ form .page .invalid-input {
   .accordion:after {
     font-size: 1vw;
     left: -5em;
+  }
+  .icon {
+    width: 20px;
+    height: 3px;
+    background: var(--color-accent-1);
+    opacity: 0.7;
+    border-radius: 2px;
+    position: absolute;
+    top: 48%;
+    right: 3em;
   }
 }
 :root {
@@ -6278,15 +6288,35 @@ button.swiper-pagination-bullet {
   }
 }
 .site-footer {
+  position: relative;
   background: var(--color-dark-1);
 }
 
+/*
+.foot-bg-wrap {
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--color-dark-1);
+    background-image: url("/assets/img/logo-big.png");
+    background-size: cover;
+    background-position: bottom;
+  z-index: 0;
+  opacity: .05;
+}
+  */
 .footer-logo {
   width: 145px;
 }
 
 .footer-bottom {
   border-top: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.footer-svg {
+  opacity: 0.1;
 }
 
 .policy-list {
@@ -6303,6 +6333,17 @@ button.swiper-pagination-bullet {
   opacity: 0.75;
 }
 
+.copy-text {
+  font-size: 12px;
+  color: #ddd;
+  opacity: 0.75;
+}
+
+@media (min-width: 767px) {
+  .policy-list {
+    text-align: end;
+  }
+}
 .work-image-wrap img {
   aspect-ratio: 9/6;
   object-fit: cover;
