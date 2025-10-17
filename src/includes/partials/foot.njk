@@ -10,6 +10,7 @@
 <script src="/assets/js/libs/scroll-trigger.js"></script>
 <script src="/assets/js/libs/lenis.js"></script> 
 <script src="/assets/js/animations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script src="/assets/js/script.js"></script>
 <script>
   window.addEventListener('load', function() {
@@ -26,6 +27,16 @@
        appMain(); animationMain()
   }, { before: true });
 </script> 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true
+    });
+});
+</script>
 <script src="/assets/js/cookieconsent.js" defer></script>
 <script src="/assets/js/cookieconsent-init.js" defer></script>
 <script type="application/ld+json">
