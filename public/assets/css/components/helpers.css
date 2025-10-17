@@ -105,6 +105,10 @@
   opacity: 0.13;
 }
 
+.line-x.light {
+  background: var(--color-light-1);
+}
+
 .line-xh {
   width: 100%;
   height: 1px;

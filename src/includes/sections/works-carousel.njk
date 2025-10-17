@@ -1,6 +1,7 @@
 <section class="pt-small pt-md-medium pb-medium pb-md-large bg-light-2" id="realizacje">
     <div class="container">
-        <h2 class="xl split-lines mt-md-0 mb-4 mb-md-5">Zobacz nasze realizacje</h2>
+        <p class="my-0 fade-in">Zobacz jak prezentują się </p>
+        <h2 class="xl split-lines mt-0 mb-4 mb-md-5">Nasze namioty w naturalnym środowisku</h2>
         <div class="swiper swiper-works">
             <div class="swiper-wrapper">
                 {% for post in collections.works %}
@@ -17,18 +18,14 @@
                             <p class="mt-0 mb-1 small">
                                 {{ post.data.client }}
                             </p>
-                            <h3 class="mt-0 mb-1">
+                            <h3 class="mt-0 mb-3">
                                 {{ post.data.title }}
                             </h3>
-                            <p class="mb-3 small">
-                                {{ post.data.description }}
-                            </p>
                         </div>
                         
                         <!-- Ukryty opis dla lightboxa -->
                         <div class="glightbox-desc custom-desc-{{ loop.index }}" style="display: none;">
                             <p class="mt-0 mb-2 small"><strong>Klient:</strong> {{ post.data.client }}</p>
-                            <p class="mb-0 small">{{ post.data.description }}</p>
                         </div>
                     </div>
                 </div>
