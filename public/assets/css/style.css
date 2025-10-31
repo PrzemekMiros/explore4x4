@@ -4467,7 +4467,7 @@ html.is-rendering .transition-fade {
 }
 :root {
   --font-primary: "Inter";
-  --font-secondary: "Oswald";
+  --font-secondary: "Libre Franklin";
   --font-handwrite: "Squarepeg";
   --fs-sm: clamp(12.8px, 0.8vw, 13.8px);
   --fs-base: clamp(16px, 1.1vw, 17px);
@@ -5074,7 +5074,7 @@ html.lenis, html.lenis body {
 }
 
 .layer-main {
-  background-image: url("/assets/img/hero/baner12.png");
+  background-image: url("/assets/img/hero/baner16.png");
   z-index: 3;
 }
 
