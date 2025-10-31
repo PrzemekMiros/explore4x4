@@ -199,7 +199,7 @@ gsap.ticker.add((time) => {
             }
         });
 
-        gsap.to(".layer-front", {
+        gsap.to(".layer-main", {
             y: "20%",
             ease: "none",
             scrollTrigger: {

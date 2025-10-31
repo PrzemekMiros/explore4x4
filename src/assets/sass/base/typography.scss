@@ -10,7 +10,7 @@
 
 :root {
   --font-primary: "Inter";
-  --font-secondary: "Epilogue";
+  --font-secondary: "Oswald";
   --font-handwrite: "Squarepeg";
   --fs-sm: clamp(12.8px, 0.8vw, 13.8px);
   --fs-base: clamp(16px, 1.1vw, 17px);
@@ -28,7 +28,7 @@ h1,
 h2,
 .h2 {
   font-family: var(--font-secondary);
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-heading);
 }
 

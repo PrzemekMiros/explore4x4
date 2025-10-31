@@ -30,6 +30,26 @@
   opacity: 0.1;
 }
 
+.footer-list {
+  padding-left: 0;
+}
+
+.footer-list li {
+  margin-bottom: 0.4em;
+  list-style: none;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.footer-list li a {
+  transition: 0.3s ease-in-out;
+}
+
+.footer-list li a:hover {
+  font-size: 14px;
+  color: var(--color-accent-1);
+}
+
 .policy-list {
   padding-left: 0;
 }

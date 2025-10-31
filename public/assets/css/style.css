@@ -4467,7 +4467,7 @@ html.is-rendering .transition-fade {
 }
 :root {
   --font-primary: "Inter";
-  --font-secondary: "Epilogue";
+  --font-secondary: "Oswald";
   --font-handwrite: "Squarepeg";
   --fs-sm: clamp(12.8px, 0.8vw, 13.8px);
   --fs-base: clamp(16px, 1.1vw, 17px);
@@ -4485,7 +4485,7 @@ h1,
 h2,
 .h2 {
   font-family: var(--font-secondary);
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-heading);
 }
 
@@ -5070,6 +5070,11 @@ html.lenis, html.lenis body {
 
 .layer-front {
   background-image: url("/assets/img/hero/par-layer-3.webp");
+  z-index: 3;
+}
+
+.layer-main {
+  background-image: url("/assets/img/hero/baner12.png");
   z-index: 3;
 }
 
@@ -6321,6 +6326,26 @@ button.swiper-pagination-bullet {
 
 .footer-svg {
   opacity: 0.1;
+}
+
+.footer-list {
+  padding-left: 0;
+}
+
+.footer-list li {
+  margin-bottom: 0.4em;
+  list-style: none;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.footer-list li a {
+  transition: 0.3s ease-in-out;
+}
+
+.footer-list li a:hover {
+  font-size: 14px;
+  color: var(--color-accent-1);
 }
 
 .policy-list {
