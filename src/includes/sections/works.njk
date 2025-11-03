@@ -7,28 +7,32 @@
             </h2>
         </div>
 
-    <div class="row flex-md-row-reverse align-items-center">
-      {% for post in collections.works.slice(0, 3) %}
-
-            <div class="col-md-4">
-                <div class="work-card bg-light-2 rounded-md">
-                <div class="work-image-wrap p-2 rounded-md">
-                    {% workImage "src/" + post.data.thumbnail, post.data.title %}
-                </div>
-                <div class="work-text-wrap p-4">
-                <p class="mt-0 mb-1 small">
-                {{ post.data.client }}
-              </p>
-              <h3 class="mt-0 mb-1">
-                {{ post.data.title }}
-              </h3>
-              <p class="mb-3 small">
-                {{ post.data.description }}
-              </p>
-              </div>
-              </div>
-            </div>
-
+    <div class="row align-items-center">
+      {% for post in collections.works %}
+             <div class="col-md-4">
+                    <div class="work-card bg-light-1 rounded-md">
+                        <a href="{{ post.data.thumbnail | url }}" 
+                           class="glightbox work-image-wrap rounded-md" 
+                           data-no-swup
+                           data-gallery="portfolio"
+                           data-glightbox="title: {{ post.data.title }}; description: .custom-desc-{{ loop.index }}">
+                            {% workImage "src/" + post.data.thumbnail, post.data.title %}
+                        </a>
+                        <div class="work-text-wrap p-4">
+                            <p class="mt-0 mb-1 small">
+                                {{ post.data.client }}
+                            </p>
+                            <h3 class="mt-0 mb-3">
+                                {{ post.data.title }}
+                            </h3>
+                        </div>
+                        
+                        <!-- Ukryty opis dla lightboxa -->
+                        <div class="glightbox-desc custom-desc-{{ loop.index }}" style="display: none;">
+                            <p class="mt-0 mb-2 small"><strong>Klient:</strong> {{ post.data.client }}</p>
+                        </div>
+                    </div>
+             </div>
       {% endfor %}
     </div>
 
