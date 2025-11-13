@@ -746,3 +746,38 @@ button.swiper-pagination-bullet {
     top: 12%;
   }
 }
+.work-image-wrap {
+  position: relative;
+  display: block;
+}
+
+.work-image-wrap::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  z-index: 9;
+}
+
+.img-wrapper-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 99;
+}
+
+.work-image-wrap:hover .img-wrapper-icon {
+  opacity: 1;
+}
+
+.work-image-wrap:hover::before {
+  opacity: 0.3;
+}

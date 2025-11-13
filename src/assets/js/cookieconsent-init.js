@@ -24,6 +24,11 @@ CookieConsent.run({
         analytics: {},
         marketing: {}
     },
+      revisionButton: {
+    enabled: true,
+    position: "left",
+    label: "Ustawienia cookies 🍪"
+  },
     language: {
         default: "pl",
         autoDetect: "browser",
