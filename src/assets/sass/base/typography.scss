@@ -9,7 +9,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: "Capture it";
+  font-family: "Capture";
   font-style: normal;
   src: url("/assets/fonts/capture_it/Capture-it.ttf")
     format("woff2");
@@ -18,7 +18,7 @@
 
 :root {
   --font-primary: "Inter";
-  --font-secondary: "Road Rage";
+  --font-secondary: "Poppins"; 
   --font-handwrite: "Squarepeg";
   --fs-sm: clamp(12.8px, 0.8vw, 13.8px);
   --fs-base: clamp(16px, 1.1vw, 17px);
@@ -53,55 +53,54 @@ h6,
   color: var(--color-heading);
 }
 
-.xxl {
+.xxxl {
   margin-bottom: 0.5em;
   font-size: clamp(45.1px, 7.56vw, 100.1px);
   line-height: 1.1;
 }
 
-.xl {
+.xxl {
   margin-bottom: 0.5em;
   font-size: clamp(39.2px, 5.46vw, 75.2px);
   line-height: 1.2;
 }
 
-h1,
-.h1 {
+.xl {
   margin-bottom: 0.5em;
   font-size: clamp(34px, 4.06vw, 56.4px);
+  line-height: 1.2;
+}
+
+h1,
+.h1 {
+  margin-bottom: 0.8em;
+  font-size: clamp(29.7px, 2.94vw, 42.3px);
   line-height: 1.2;
 }
 
 h2,
 .h2 {
   margin-bottom: 0.8em;
-  font-size: clamp(29.7px, 2.94vw, 42.3px);
-  line-height: 1.2;
+  font-size: clamp(25.8px, 2.1vw, 31.8px);
+  line-height: 1.3;
 }
 
 h3,
 .h3 {
   margin-bottom: 0.8em;
-  font-size: clamp(25.8px, 2.1vw, 31.8px);
-  line-height: 1.3;
+  font-size: clamp(22.4px, 1.54vw, 23.8px);
+  line-height: 1.4;
 }
 
 h4,
 .h4 {
   margin-bottom: 0.8em;
-  font-size: clamp(22.4px, 1.54vw, 23.8px);
+  font-size: var(--step--1);
   line-height: 1.4;
 }
 
 h5,
 .h5 {
-  margin-bottom: 0.8em;
-  font-size: var(--step--1);
-  line-height: 1.4;
-}
-
-h6,
-.h6 {
   margin-bottom: 1em;
   font-size: var(--step--2);
   line-height: 1.4;
