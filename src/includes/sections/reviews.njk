@@ -1,14 +1,12 @@
 <section class="bg-dark-3" id="opinie">
 <div class="pt-medium pb-medium pt-md-medium pb-md-large rounded-xl bg-light-1">
     <div class="container">
-        <div class="col-md-6 mx-auto text-center mb-5">
-            <h2 class="xl mt-0 split-lines">
-                Opinie klientów
-            </h2>
-            <p class="split-lines">
-                Opinie są wiarygodne, wystawili je klienci, którzy skorzystali z naszych usług. 
-            </p>
-        </div>
+
+    <div class="section-intro reviews-section-intro">
+        <p class="section-kicker">Głos naszych klientów</p>
+        <h2 class="split-lines">Przetestowane<br>w prawdziwej drodze</h2>
+    </div>
+
         <div class="row g-4">
             {% for post in collections.reviews.slice(0, 12)%}
                 <div class="col-md-6 col-xl-4 fade-in">

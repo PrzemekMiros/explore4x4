@@ -1,0 +1,22 @@
+<section class="subpage-section works-page" id="realizacje">
+  <div class="container">
+    <div class="section-intro">
+      <p class="section-kicker">Sprawdzone poza asfaltem</p>
+      <h2>Nasze realizacje<br>w naturalnym środowisku</h2>
+    </div>
+    <div class="row g-4">
+      {% for post in collections.works %}
+      <div class="col-md-6 col-xl-4 fade-in">
+        <article class="subpage-work-card">
+          <a href="{{ post.data.thumbnail | url }}" class="glightbox subpage-work-image" data-no-swup data-gallery="realizacje" data-glightbox="title: {{ post.data.title }}">
+            {% workImage "src/" + post.data.thumbnail, post.data.title %}
+            <span class="image-action" aria-hidden="true">↗</span>
+          </a>
+          <p>{{ post.data.client }}</p>
+          <h3>{{ post.data.title }}</h3>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
