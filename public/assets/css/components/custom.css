@@ -84,10 +84,6 @@ body {
   padding: 1rem 1.3rem;
 }
 
-.site-header .btn-write .button-anim-text span {
-  color: #071b1f;
-}
-
 .site-header .button-anim-icon {
   display: none;
 }
@@ -761,8 +757,8 @@ body {
 
 @media (max-width: 767px) {
   .subpage-hero {
-    min-height: 520px;
-    padding: 8rem 0 3.5rem;
+    min-height: 220px;
+    padding: 9rem 0 3.5rem;
     background-position: 62% center;
   }
   .subpage-hero-inner {

@@ -47,7 +47,6 @@ body { background: var(--color-dark-1); }
 }
 .desktop-nav ul li a:hover { color: var(--color-accent-1); }
 .site-header .btn-write { background: var(--color-accent-1); padding: 1rem 1.3rem; }
-.site-header .btn-write .button-anim-text span { color: #071b1f; }
 .site-header .button-anim-icon { display: none; }
 .menu-toggle { border-radius: 0; background: var(--color-accent-1); }
 
@@ -218,7 +217,7 @@ body { background: var(--color-dark-1); }
 .contact-symbol { display: grid; flex: 0 0 48px; place-items: center; width: 48px; height: 48px; margin-right: 1rem; color: #071b1f; background: var(--color-accent-1); font-size: 11px; font-weight: 800; }
 
 @media (max-width: 767px) {
-  .subpage-hero { min-height: 520px; padding: 8rem 0 3.5rem; background-position: 62% center; }
+  .subpage-hero { min-height: 220px; padding: 9rem 0 3.5rem; background-position: 62% center; }
   .subpage-hero-inner { padding-left: 2rem; }
   .subpage-hero-inner::before { left: 12px; }
   .subpage-hero h1 { font-size: 58px; line-height: .9; }
