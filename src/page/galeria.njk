@@ -1,0 +1,29 @@
+---
+layout: "layouts/base.njk"
+title: Galeria
+description: Zobacz świat Explore 4x4 w kadrach z wypraw i spotkań poza asfaltem.
+permalink: /galeria/index.html
+heroClass: subpage-hero-works
+---
+{% include "templates/subpage-hero.njk" %}
+
+<section class="subpage-section works-page gallery-page" id="galeria">
+  <div class="container">
+    <div class="section-intro">
+      <p class="section-kicker">Sprawdzone poza asfaltem</p>
+      <h2>Przygoda<br>uchwycona w kadrze</h2>
+    </div>
+    <div class="row g-4">
+      {% for photo in galleryImages %}
+      <div class="col-md-6 col-xl-4 fade-in">
+        <a href="{{ photo.url }}" class="glightbox subpage-work-image gallery-image" data-no-swup data-gallery="galeria" data-title="" data-description="" aria-label="Powiększ zdjęcie {{ loop.index }}">
+          {% galleryImage photo.source, "Explore 4x4 — zdjęcie " + loop.index %}
+          <span class="image-action" aria-hidden="true">↗</span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "sections/banner.njk" %}

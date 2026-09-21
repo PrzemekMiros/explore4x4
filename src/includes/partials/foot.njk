@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
         loop: true,
         autoplayVideos: true
     });
+    swup.hooks.on('page:view', () => lightbox.reload());
+    swup.hooks.before('content:replace', () => lightbox.close());
 });
 </script>
 <script src="/assets/js/cookieconsent.js" defer></script>

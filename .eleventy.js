@@ -11,6 +11,7 @@ const lineStatic = require('./src/shortcodes/lineStatic.js');
 const siteImage = require('./src/shortcodes/Image.js');
 const blogImage = require('./src/shortcodes/blogImage.js');
 const workImage = require('./src/shortcodes/workImage.js');
+const galleryImage = require('./src/shortcodes/galleryImage.js');
 
 module.exports = function(eleventyConfig) {
 
@@ -20,6 +21,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/fonts");
     eleventyConfig.addPassthroughCopy("src/content/posts/img"); 
     eleventyConfig.addPassthroughCopy("src/content/works/img"); 
+    eleventyConfig.addPassthroughCopy("src/content/gallery");
+    eleventyConfig.addWatchTarget("src/content/gallery");
     eleventyConfig.addPassthroughCopy("src/content/clients/img"); 
     eleventyConfig.addPassthroughCopy("src/content/reviews/img"); 
     eleventyConfig.addPassthroughCopy("src/static");
@@ -32,6 +35,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksAsyncShortcode("Image", siteImage);
     eleventyConfig.addNunjucksAsyncShortcode("blogImage", blogImage);
     eleventyConfig.addNunjucksAsyncShortcode("workImage", workImage);
+    eleventyConfig.addNunjucksAsyncShortcode("galleryImage", galleryImage);
 
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
     

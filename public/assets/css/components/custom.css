@@ -479,7 +479,7 @@ body {
   align-items: flex-end;
   padding: 7rem 0 8rem;
   background-color: var(--color-dark-2);
-  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.9), rgba(5, 24, 28, 0.22)), url("/assets/img/hero/baner16.png");
+  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.9), rgba(5, 24, 28, 0.22)), url("/assets/img/hero/baner10.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -534,15 +534,15 @@ body {
 }
 
 .subpage-hero-offer {
-  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.91), rgba(5, 24, 28, 0.18)), url("/assets/img/offer/twarda.png");
+  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.91), rgba(5, 24, 28, 0.18)), url("/assets/img/hero/baner10.jpg");
 }
 
 .subpage-hero-reviews {
-  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.91), rgba(5, 24, 28, 0.22)), url("/assets/img/kq3z21rxEC-1800.webp");
+  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.91), rgba(5, 24, 28, 0.22)), url("/assets/img/hero/baner10.jpg");
 }
 
 .subpage-hero-contact {
-  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.91), rgba(5, 24, 28, 0.25)), url("/assets/img/hero/baner7.jpg");
+  background-image: linear-gradient(90deg, rgba(5, 24, 28, 0.91), rgba(5, 24, 28, 0.25)), url("/assets/img/hero/baner10.jpg");
 }
 
 .subpage-section {
@@ -598,6 +598,25 @@ body {
 .subpage-work-card:hover img {
   transform: scale(1.035);
   filter: saturate(1);
+}
+
+.gallery-image {
+  margin-bottom: 0;
+}
+
+.gallery-image img {
+  display: block;
+  width: 100%;
+}
+
+.gallery-image:hover img, .gallery-image:focus-visible img {
+  transform: scale(1.035);
+  filter: saturate(1);
+}
+
+.gallery-image:focus-visible {
+  outline: 2px solid var(--color-accent-1);
+  outline-offset: 4px;
 }
 
 .image-action {

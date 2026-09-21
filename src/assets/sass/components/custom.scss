@@ -159,7 +159,7 @@ body { background: var(--color-dark-1); }
   align-items: flex-end;
   padding: 7rem 0 8rem;
   background-color: var(--color-dark-2);
-  background-image: linear-gradient(90deg, rgba(5, 24, 28, .9), rgba(5, 24, 28, .22)), url('/assets/img/hero/baner16.png');
+  background-image: linear-gradient(90deg, rgba(5, 24, 28, .9), rgba(5, 24, 28, .22)), url('/assets/img/hero/baner10.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -170,9 +170,9 @@ body { background: var(--color-dark-1); }
 .subpage-kicker, .section-kicker { margin: 0 0 1.25rem; color: var(--color-accent-1); font-size: 11px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
 .subpage-hero h1 { max-width: 900px; margin: 0; color: #fff; font-size: clamp(64px, 8vw, 116px); line-height: .86; }
 .subpage-lead { max-width: 570px; margin: 1.5rem 0 0; color: #d6dfdd; font-size: 16px; }
-.subpage-hero-offer { background-image: linear-gradient(90deg, rgba(5,24,28,.91), rgba(5,24,28,.18)), url('/assets/img/offer/twarda.png'); }
-.subpage-hero-reviews { background-image: linear-gradient(90deg, rgba(5,24,28,.91), rgba(5,24,28,.22)), url('/assets/img/kq3z21rxEC-1800.webp'); }
-.subpage-hero-contact { background-image: linear-gradient(90deg, rgba(5,24,28,.91), rgba(5,24,28,.25)), url('/assets/img/hero/baner7.jpg'); }
+.subpage-hero-offer { background-image: linear-gradient(90deg, rgba(5,24,28,.91), rgba(5,24,28,.18)), url('/assets/img/hero/baner10.jpg'); }
+.subpage-hero-reviews { background-image: linear-gradient(90deg, rgba(5,24,28,.91), rgba(5,24,28,.22)), url('/assets/img/hero/baner10.jpg'); }
+.subpage-hero-contact { background-image: linear-gradient(90deg, rgba(5,24,28,.91), rgba(5,24,28,.25)), url('/assets/img/hero/baner10.jpg'); }
 
 .subpage-section { padding: 7rem 0; }
 .section-intro { display: flex; justify-content: space-between; align-items: flex-start; gap: 3rem; margin-bottom: 4rem; }
@@ -184,6 +184,10 @@ body { background: var(--color-dark-1); }
 .subpage-work-image { position: relative; display: block; overflow: hidden; margin-bottom: 1.25rem; background: #06171b; }
 .subpage-work-image img { aspect-ratio: 4/3; object-fit: cover; filter: saturate(.75) contrast(1.06); transition: transform .55s ease, filter .35s ease; }
 .subpage-work-card:hover img { transform: scale(1.035); filter: saturate(1); }
+.gallery-image { margin-bottom: 0; }
+.gallery-image img { display: block; width: 100%; }
+.gallery-image:hover img, .gallery-image:focus-visible img { transform: scale(1.035); filter: saturate(1); }
+.gallery-image:focus-visible { outline: 2px solid var(--color-accent-1); outline-offset: 4px; }
 .image-action { position: absolute; right: 0; bottom: 0; display: grid; place-items: center; width: 50px; height: 50px; color: #071b1f; background: var(--color-accent-1); font-size: 24px; }
 .subpage-work-card p { margin: 0 0 .4rem; color: var(--color-accent-1); font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .subpage-work-card h3 { margin: 0; color: #fff; font-size: 29px; line-height: 1.05; }
