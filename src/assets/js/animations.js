@@ -1,8 +1,19 @@
+let pageLenis = null;
+let pageScrollTicker = null;
+
+function destroyPageScroll() {
+  if (pageScrollTicker) gsap.ticker.remove(pageScrollTicker);
+  if (pageLenis) pageLenis.destroy();
+  pageScrollTicker = null;
+  pageLenis = null;
+}
+
 function animationMain() {
+  destroyPageScroll();
   gsap.registerPlugin(ScrollTrigger);
 
 // Inicjalizacja Lenis
-const lenis = new Lenis({
+const lenis = pageLenis = new Lenis({
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   direction: "vertical",
   gestureDirection: "vertical",
@@ -43,18 +54,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Zapobiegaj przewijaniu przy ładowaniu strony
-window.addEventListener("load", () => {
-  window.scrollTo(0, 0); // Ustaw przewijanie na samą górę
-  lenis.scrollTo(0, { immediate: true }); // Ustaw natychmiast Lenis na górę
-});
-
 // Synchronizacja Lenis i ScrollTrigger
 lenis.on('scroll', ScrollTrigger.update);
 
-gsap.ticker.add((time) => {
+pageScrollTicker = (time) => {
   lenis.raf(time * 1000);
-});
+};
+gsap.ticker.add(pageScrollTicker);
 
 
   if (window.matchMedia("(min-width: 767px)").matches) {

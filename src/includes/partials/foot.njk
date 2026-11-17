@@ -14,6 +14,9 @@
 <script src="/assets/js/script.js"></script>
 <script>
   window.addEventListener('load', function() {
+  if (!window.location.hash) {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }
   appMain(); animationMain()
   });
   const swup = new Swup({
@@ -22,6 +25,10 @@
       new SwupProgressPlugin(),
       new SwupBodyClassPlugin()
     ]
+  });
+  swup.hooks.before('content:replace', () => {
+    destroyPageScroll();
+    ScrollTrigger.getAll().forEach(trigger => trigger.kill());
   });
   swup.hooks.on('page:view', () => {
        appMain(); animationMain()

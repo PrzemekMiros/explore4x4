@@ -2,6 +2,12 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8">
+    <script>
+      // Set this before the browser restores a previous scroll position.
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="generator" content="Eleventy"/>
     <link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
