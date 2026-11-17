@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "identifier": "urn:air:explore4x4.pl:api:public-content",
+      "displayName": "Explore 4x4 public content API",
+      "type": "application/vnd.oai.openapi+json",
+      "url": "https://explore4x4.pl/api/openapi.json",
+      "description": "Read published pages about roof tents, vehicle conversions and accessories. Anonymous read-only access.",
+      "representativeQueries": [
+        "Jakie namioty dachowe opisuje Explore 4x4?",
+        "Jak skontaktować się z Explore 4x4?"
+      ]
+    },
+    {
+      "identifier": "urn:air:explore4x4.pl:skill:explore4x4-content",
+      "displayName": "Explore 4x4 content guide",
+      "type": "text/markdown",
+      "url": "https://explore4x4.pl/.well-known/agent-skills/explore4x4-content/SKILL.md",
+      "representativeQueries": [
+        "Jak odczytać publiczne treści Explore 4x4?",
+        "Gdzie znaleźć źródła informacji o ofercie Explore 4x4?"
+      ]
+    }
+  ]
+}

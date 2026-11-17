@@ -1,0 +1,14 @@
+{
+  "protocol_version": "0.3",
+  "organization": {
+    "name": "Explore 4x4",
+    "domain": "explore4x4.pl"
+  },
+  "apis": [
+    {
+      "type": "openapi",
+      "url": "https://explore4x4.pl/api/openapi.json",
+      "description": "Anonymous, read-only published website content. No account access or session state."
+    }
+  ]
+}

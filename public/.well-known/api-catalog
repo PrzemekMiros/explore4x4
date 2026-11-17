@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://explore4x4.pl/api/pages.json",
+      "service-desc": [
+        {
+          "href": "https://explore4x4.pl/api/openapi.json",
+          "type": "application/vnd.oai.openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://explore4x4.pl/api/README.md",
+          "type": "text/markdown"
+        }
+      ]
+    }
+  ]
+}

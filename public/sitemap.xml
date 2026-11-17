@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>
-                https://explore4x4.pl/
-            </loc><lastmod>2026-09-18T07:08:27.859Z</lastmod></url><url><loc>
-                https://explore4x4.pl/mapa-strony/
-            </loc><lastmod>2026-09-18T07:08:27.859Z</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://explore4x4.pl/</loc></url>
+  <url><loc>https://explore4x4.pl/galeria/</loc></url>
+  <url><loc>https://explore4x4.pl/kontakt/</loc></url>
+  <url><loc>https://explore4x4.pl/mapa-strony/</loc></url>
+  <url><loc>https://explore4x4.pl/oferta/</loc></url>
+  <url><loc>https://explore4x4.pl/opinie/</loc></url>
+  <url><loc>https://explore4x4.pl/realizacje/</loc></url>
+  <url><loc>https://explore4x4.pl/uslugi/strony-internetowe/</loc></url>
+  <url><loc>https://explore4x4.pl/blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/</loc></url>
+  <url><loc>https://explore4x4.pl/blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/</loc></url>
+  <url><loc>https://explore4x4.pl/blog/pozycjonowanie-wizytowki-google-moja-firma/</loc></url>
+  <url><loc>https://explore4x4.pl/blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/</loc></url>
+  <url><loc>https://explore4x4.pl/blog/tanie-strony-internetowe-wady-i-zalety/</loc></url>
+</urlset>

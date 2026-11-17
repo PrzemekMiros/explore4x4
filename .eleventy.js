@@ -15,6 +15,8 @@ const galleryImage = require('./src/shortcodes/galleryImage.js');
 
 module.exports = function(eleventyConfig) {
 
+    require('./scripts/agent-discovery')(eleventyConfig);
+
     eleventyConfig.addPassthroughCopy("src/assets/css");
     eleventyConfig.addPassthroughCopy("src/assets/js");
     eleventyConfig.addPassthroughCopy("src/assets/img"); 

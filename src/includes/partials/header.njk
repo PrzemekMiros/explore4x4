@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="generator" content="Eleventy"/>
+    <link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
+    <link rel="ard" href="/.well-known/ard.json" type="application/json">
+    <script src="/assets/js/webmcp.js" defer></script>
     <title>{{ title }} - Explore 4x4</title>
     <meta name="description" content="{{ description }}">
     {% set robots = robots | default('index') %}
@@ -180,8 +183,8 @@
             <div class="row align-items-center">
             <div class="col-8 col-md-3 d-flex">
               <a href="/" class="logo" title="Logo">
-                <img src="/assets/img/logo/logo.png" class="site-logo dark" alt="Explore 4x4">
-                <img src="/assets/img/logo/logo.png" class="site-logo light" alt="Explore 4x4">
+                <img src="/assets/img/logo/logo.png" class="site-logo dark" width="106" height="55" alt="Explore 4x4">
+                <img src="/assets/img/logo/logo.png" class="site-logo light" width="106" height="55" alt="Explore 4x4">
               </a>
             </div>
             <div class="col-md-6 d-none d-md-block">

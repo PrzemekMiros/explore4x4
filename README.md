@@ -37,3 +37,7 @@ Node.js, Git
 npm install
 
 npm start
+
+### Agent discovery
+
+Nagłówki Link, wersje Markdown i instrukcja DNS-AID: [docs/agent-discovery.md](docs/agent-discovery.md).

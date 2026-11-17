@@ -1,0 +1,68 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Explore 4x4 public content API",
+    "version": "1.0.0",
+    "description": "Read-only public website content, regenerated on each site build. No accounts, authentication, orders or inventory operations."
+  },
+  "servers": [
+    {
+      "url": "https://explore4x4.pl"
+    }
+  ],
+  "security": [],
+  "paths": {
+    "/api/pages.json": {
+      "get": {
+        "operationId": "listPublicPages",
+        "summary": "Read public pages and their Markdown content",
+        "responses": {
+          "200": {
+            "description": "Public content index",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "pages"
+                  ],
+                  "properties": {
+                    "pages": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "title",
+                          "url",
+                          "markdown_url",
+                          "content"
+                        ],
+                        "properties": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "markdown_url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "content": {
+                            "type": "string",
+                            "description": "Public page main content in Markdown."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

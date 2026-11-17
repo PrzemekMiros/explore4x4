@@ -3,7 +3,11 @@ permalink: '/robots.txt'
 eleventyExcludeFromCollections: true
 ---
 
-User-agent: * 
-Allow: / 
+User-agent: *
+# Allow search indexing and AI answers; do not permit model training.
+# These usage preferences complement crawler access rules.
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
 Sitemap: https://explore4x4.pl/sitemap.xml
+Agentmap: https://explore4x4.pl/.well-known/ard.json
 

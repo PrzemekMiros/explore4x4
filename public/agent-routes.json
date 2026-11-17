@@ -1,0 +1,154 @@
+{
+  "/": {
+    "html": "index.html",
+    "markdown": "index.md"
+  },
+  "/index.html": {
+    "html": "index.html",
+    "markdown": "index.md"
+  },
+  "/blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/": {
+    "html": "blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.html",
+    "markdown": "blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.md"
+  },
+  "/blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.html": {
+    "html": "blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.html",
+    "markdown": "blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.md"
+  },
+  "/blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik": {
+    "html": "blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.html",
+    "markdown": "blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.md"
+  },
+  "/blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/": {
+    "html": "blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.html",
+    "markdown": "blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.md"
+  },
+  "/blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.html": {
+    "html": "blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.html",
+    "markdown": "blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.md"
+  },
+  "/blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych": {
+    "html": "blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.html",
+    "markdown": "blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.md"
+  },
+  "/blog/pozycjonowanie-wizytowki-google-moja-firma/": {
+    "html": "blog/pozycjonowanie-wizytowki-google-moja-firma/index.html",
+    "markdown": "blog/pozycjonowanie-wizytowki-google-moja-firma/index.md"
+  },
+  "/blog/pozycjonowanie-wizytowki-google-moja-firma/index.html": {
+    "html": "blog/pozycjonowanie-wizytowki-google-moja-firma/index.html",
+    "markdown": "blog/pozycjonowanie-wizytowki-google-moja-firma/index.md"
+  },
+  "/blog/pozycjonowanie-wizytowki-google-moja-firma": {
+    "html": "blog/pozycjonowanie-wizytowki-google-moja-firma/index.html",
+    "markdown": "blog/pozycjonowanie-wizytowki-google-moja-firma/index.md"
+  },
+  "/blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/": {
+    "html": "blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.html",
+    "markdown": "blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.md"
+  },
+  "/blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.html": {
+    "html": "blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.html",
+    "markdown": "blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.md"
+  },
+  "/blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron": {
+    "html": "blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.html",
+    "markdown": "blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.md"
+  },
+  "/blog/tanie-strony-internetowe-wady-i-zalety/": {
+    "html": "blog/tanie-strony-internetowe-wady-i-zalety/index.html",
+    "markdown": "blog/tanie-strony-internetowe-wady-i-zalety/index.md"
+  },
+  "/blog/tanie-strony-internetowe-wady-i-zalety/index.html": {
+    "html": "blog/tanie-strony-internetowe-wady-i-zalety/index.html",
+    "markdown": "blog/tanie-strony-internetowe-wady-i-zalety/index.md"
+  },
+  "/blog/tanie-strony-internetowe-wady-i-zalety": {
+    "html": "blog/tanie-strony-internetowe-wady-i-zalety/index.html",
+    "markdown": "blog/tanie-strony-internetowe-wady-i-zalety/index.md"
+  },
+  "/galeria/": {
+    "html": "galeria/index.html",
+    "markdown": "galeria/index.md"
+  },
+  "/galeria/index.html": {
+    "html": "galeria/index.html",
+    "markdown": "galeria/index.md"
+  },
+  "/galeria": {
+    "html": "galeria/index.html",
+    "markdown": "galeria/index.md"
+  },
+  "/kontakt/": {
+    "html": "kontakt/index.html",
+    "markdown": "kontakt/index.md"
+  },
+  "/kontakt/index.html": {
+    "html": "kontakt/index.html",
+    "markdown": "kontakt/index.md"
+  },
+  "/kontakt": {
+    "html": "kontakt/index.html",
+    "markdown": "kontakt/index.md"
+  },
+  "/mapa-strony/": {
+    "html": "mapa-strony/index.html",
+    "markdown": "mapa-strony/index.md"
+  },
+  "/mapa-strony/index.html": {
+    "html": "mapa-strony/index.html",
+    "markdown": "mapa-strony/index.md"
+  },
+  "/mapa-strony": {
+    "html": "mapa-strony/index.html",
+    "markdown": "mapa-strony/index.md"
+  },
+  "/oferta/": {
+    "html": "oferta/index.html",
+    "markdown": "oferta/index.md"
+  },
+  "/oferta/index.html": {
+    "html": "oferta/index.html",
+    "markdown": "oferta/index.md"
+  },
+  "/oferta": {
+    "html": "oferta/index.html",
+    "markdown": "oferta/index.md"
+  },
+  "/opinie/": {
+    "html": "opinie/index.html",
+    "markdown": "opinie/index.md"
+  },
+  "/opinie/index.html": {
+    "html": "opinie/index.html",
+    "markdown": "opinie/index.md"
+  },
+  "/opinie": {
+    "html": "opinie/index.html",
+    "markdown": "opinie/index.md"
+  },
+  "/realizacje/": {
+    "html": "realizacje/index.html",
+    "markdown": "realizacje/index.md"
+  },
+  "/realizacje/index.html": {
+    "html": "realizacje/index.html",
+    "markdown": "realizacje/index.md"
+  },
+  "/realizacje": {
+    "html": "realizacje/index.html",
+    "markdown": "realizacje/index.md"
+  },
+  "/uslugi/strony-internetowe/": {
+    "html": "uslugi/strony-internetowe/index.html",
+    "markdown": "uslugi/strony-internetowe/index.md"
+  },
+  "/uslugi/strony-internetowe/index.html": {
+    "html": "uslugi/strony-internetowe/index.html",
+    "markdown": "uslugi/strony-internetowe/index.md"
+  },
+  "/uslugi/strony-internetowe": {
+    "html": "uslugi/strony-internetowe/index.html",
+    "markdown": "uslugi/strony-internetowe/index.md"
+  }
+}

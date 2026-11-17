@@ -1,0 +1,27 @@
+# LiteSpeed / Apache: requires mod_headers, mod_rewrite and PHP 7.4+.
+AddType text/markdown .md
+AddCharset UTF-8 .md .txt
+
+<Files "api-catalog">
+  ForceType application/linkset+json
+</Files>
+<Files "openapi.json">
+  ForceType application/vnd.oai.openapi+json
+</Files>
+
+Header always merge Vary Accept
+Header always set Link "<https://explore4x4.pl/sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", <https://explore4x4.pl/robots.txt>; rel=\"http://www.robotstxt.org/\"; type=\"text/plain\", <https://explore4x4.pl/llms.txt>; rel=\"describedby\"; type=\"text/plain\", <https://explore4x4.pl/.well-known/agents-index.json>; rel=\"https://www.dns-aid.org/\"; type=\"application/json\""
+
+Header always add Link "<https://explore4x4.pl/.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", <https://explore4x4.pl/.well-known/ard.json>; rel=\"https://agenticresourcediscovery.org/\"; type=\"application/json\""
+
+<Files "agent-routes.json">
+  Require all denied
+</Files>
+
+RewriteEngine On
+# Only page GET/HEAD requests explicitly mentioning Markdown reach PHP.
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$
+RewriteCond %{HTTP_ACCEPT} text/markdown [NC]
+RewriteCond %{REQUEST_URI} !^/(?:agent-content\.php|admin(?:/|$)) [NC]
+# GENERATED_PAGE_ROUTES
+RewriteRule ^ agent-content.php [L]

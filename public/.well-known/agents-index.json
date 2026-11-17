@@ -1,0 +1,63 @@
+{
+  "name": "Explore 4x4",
+  "url": "https://explore4x4.pl",
+  "description": "Public website resources. No conversational or executable agents are advertised.",
+  "agents": [],
+  "resources": [
+    {
+      "url": "https://explore4x4.pl/",
+      "markdown": "https://explore4x4.pl/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/",
+      "markdown": "https://explore4x4.pl/blog/audyt-strony-pod-katem-seo-kompleksowy-przewodnik/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/",
+      "markdown": "https://explore4x4.pl/blog/dostosowanie-strony-www-dla-osob-niepelnosprawnych/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/blog/pozycjonowanie-wizytowki-google-moja-firma/",
+      "markdown": "https://explore4x4.pl/blog/pozycjonowanie-wizytowki-google-moja-firma/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/",
+      "markdown": "https://explore4x4.pl/blog/senuto-kompleksowe-narzedzie-do-skutecznego-pozycjonowania-stron/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/blog/tanie-strony-internetowe-wady-i-zalety/",
+      "markdown": "https://explore4x4.pl/blog/tanie-strony-internetowe-wady-i-zalety/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/galeria/",
+      "markdown": "https://explore4x4.pl/galeria/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/kontakt/",
+      "markdown": "https://explore4x4.pl/kontakt/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/mapa-strony/",
+      "markdown": "https://explore4x4.pl/mapa-strony/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/oferta/",
+      "markdown": "https://explore4x4.pl/oferta/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/opinie/",
+      "markdown": "https://explore4x4.pl/opinie/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/realizacje/",
+      "markdown": "https://explore4x4.pl/realizacje/index.md"
+    },
+    {
+      "url": "https://explore4x4.pl/uslugi/strony-internetowe/",
+      "markdown": "https://explore4x4.pl/uslugi/strony-internetowe/index.md"
+    }
+  ],
+  "sitemap": "https://explore4x4.pl/sitemap.xml",
+  "robots": "https://explore4x4.pl/robots.txt",
+  "llms": "https://explore4x4.pl/llms.txt"
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "explore4x4-content",
+      "description": "Find and cite published Explore 4x4 information about roof tents, vehicle conversions, accessories and contact details using its public content API.",
+      "type": "skill-md",
+      "url": "https://explore4x4.pl/.well-known/agent-skills/explore4x4-content/SKILL.md",
+      "digest": "sha256:27629fa63293fab305ed0847eff6c83ac9854da3e48f66175750a18daf8c9215"
+    }
+  ]
+}
